@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, button, input {
+  font-size: --apple-system, Ubuntu, Arial, sans-serif;
+}
+
+*, li {
+  list-style: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 252px);
+}/*# sourceMappingURL=style.css.map */

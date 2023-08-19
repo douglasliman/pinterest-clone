@@ -66,6 +66,18 @@ nav .buttons .signup {
   background: #efefef;
 }
 
+.animate-before {
+  transform: translateY(40px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.animate-before {
+  transform: translateY(-40px);
+  opacity: 0;
+  pointer-events: none;
+}
+
 .grid-container {
   display: flex;
   flex-direction: column;
@@ -83,6 +95,7 @@ nav .buttons .signup {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition-duration: 1s;
 }
 .column:nth-child(1) {
   margin-top: 0px;

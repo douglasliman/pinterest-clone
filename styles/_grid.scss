@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+    transition-duration: 1s;
 
      &:nth-child(1){
         margin-top: 0px;

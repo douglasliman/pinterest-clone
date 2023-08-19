@@ -22,24 +22,31 @@
 
      &:nth-child(1){
         margin-top: 0px;
+        transition-delay: $column-transition * 0;
      }
      &:nth-child(2){
         margin-top: 160px;
+        transition-delay: $column-transition * 1;
      }
      &:nth-child(3){
         margin-top: 320px;
+        transition-delay: $column-transition * 2;
      }
      &:nth-child(4){
         margin-top: 480px;
+        transition-delay: $column-transition * 3;
      }
      &:nth-child(5){
         margin-top: 320px;
+        transition-delay: $column-transition * 4;
      }
      &:nth-child(6){
         margin-top: 160px;
+        transition-delay: $column-transition * 5;
      }
      &:nth-child(7){
         margin-top: 0px;
+        transition-delay: $column-transition * 6;
      }
 }
 

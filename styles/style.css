@@ -88,6 +88,14 @@ nav .buttons .signup {
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 252px);
+  visibility: hidden;
+  pointer-events: none;
+  max-height: 0px;
+}
+.grid.active {
+  max-height: unset;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .column {
